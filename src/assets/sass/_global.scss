@@ -78,3 +78,25 @@ p.lead {
     }
   }
 }
+
+.resume-content {
+  ul {
+    padding: 0;
+  }
+
+  li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+  }
+}
+
+.book-content {
+  img {
+    width: 100px;
+    margin-right: 20px;
+  }
+  p {
+    font-size: 12px;
+  }
+}
