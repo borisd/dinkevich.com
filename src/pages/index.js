@@ -18,7 +18,7 @@ const IndexPage = () => (
         <div className="w-100">
           <h1 className="mb-0">
             {config.firstName}
-            <span className="text-primary">{config.lastName}</span>
+            <span className="text-primary wrap">{config.lastName}</span>
           </h1>
           <div className="subheading mb-5">
             <a href={`mailto:${config.email}`}>{config.email}</a>
